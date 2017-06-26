@@ -1,23 +1,17 @@
 {
-  "name": "chiasmus",
-  "version": "0.1",
-  "description": "Chiasmus testing and assessment by Chi Squared Software",
-  "main": "server.js",
-  "dependencies": {
-    "express": "~4.13.3",
-  },
-  "author": {
-    "name": "Chi Squared Software",
-    "email": "jeff@chisquaredsoftware.com"
-  },
-  "contributors": [
-    {
-      "name": "Jeff Willden",
-      "email": "jeff@chisquaredsoftware.com"
-    }
-  ],
-  "scripts": {
-    "start": "node server.js"
-  },
-  "config": {}
+	"name": "chiasmus",
+	"version": "0.1.1",
+	"description": "Chiasmus testing and assessment by Chi Squared Software",
+	"main": "server.js",
+	"dependencies": {
+		"koa": "^2.3.0"
+	},
+	"engine": {
+		"node": "^8.1.2",
+		"npm": "^5.0.3"
+	},
+	"author": "Jeff Willden <jeff@chisquaredsoftware.com>",
+	"scripts": {
+		"start": "node server.js"
+	},
 }
